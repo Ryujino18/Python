@@ -17,9 +17,9 @@ marks = []
 for i in range (6):
     while True:
         try: 
-            mark = int(input (f"Enter the marks {i+1}:"))
-            marks.append(mark)
-            break 
+                mark = int(input (f"Enter the marks {i+1}:"))
+                marks.append(mark)
+                break 
         except ValueError : 
              print("Inavlid crashout")
 marks.sort()
